@@ -11,7 +11,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "tallerjuangubio = tallerjuangubio.hola:main",
+            "tallerjuangubio = tallerjuangubio:hola",
         ],
     },
 )
