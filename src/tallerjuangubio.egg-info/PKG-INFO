@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: tallerjuangubio
+Version: 0.1.0
+Summary: A simple package by JuanGubio
+Author: JuanGubio
+Author-email: juan@example.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary

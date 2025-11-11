@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/tallerjuangubio/__init__.py
+src/tallerjuangubio.egg-info/PKG-INFO
+src/tallerjuangubio.egg-info/SOURCES.txt
+src/tallerjuangubio.egg-info/dependency_links.txt
+src/tallerjuangubio.egg-info/entry_points.txt
+src/tallerjuangubio.egg-info/top_level.txt
