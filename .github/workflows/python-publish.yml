@@ -26,6 +26,6 @@ jobs:
     - name: Build package
       run: python -m build
 
-    - name: Publish to GitHub Packages
+    - name: Publish to Test PyPI
       run: |
-        python -m twine upload --repository-url https://pypi.pkg.github.com/${{ github.repository_owner }} dist/* -u __token__ -p ${{ secrets.PYPI_TOKEN }}
+        python -m twine upload --repository testpypi dist/* -u __token__ -p ${{ secrets.TEST_PYPI_TOKEN }}
