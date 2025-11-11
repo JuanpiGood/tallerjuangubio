@@ -5,7 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Hola, soy JuanGubio 🚀</h1><p>Mi app Flask está funcionando correctamente.</p>"
+    return """
+    <h1>Hola, soy JuanGubio 🚀</h1>
+    <p>Mi app Flask está funcionando correctamente.</p>
+    <img src="https://via.placeholder.com/300x200?text=JuanGubio" alt="Imagen de JuanGubio">
+    """
 
 if __name__ == '__main__':
     # Render asigna dinámicamente el puerto
